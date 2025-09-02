@@ -1,0 +1,79 @@
+Command Line Arguments:
+     dir = /workspace/cd0184/9664b117-d773-4799-b6a3-d4640ed70218/data/uploaded_images/ 
+    arch = alexnet 
+ dogfile = /workspace/cd0184/9664b117-d773-4799-b6a3-d4640ed70218/data/dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                     Dog_02.jpg  label:                        dog
+ 2 key:                   Sword_01.jpg  label:                      sword
+ 3 key:                   Sheep_01.jpg  label:                      sheep
+ 4 key:                     Dog_01.jpg  label:                        dog
+
+     MATCH:
+
+ NOT A MATCH:
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:          cliff, drop, drop-off
+
+                  Sword_01.jpg: 
+Real:                      sword   Classifier:                          ladle
+
+                  Sheep_01.jpg: 
+Real:                      sheep   Classifier:                       ram, tup
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier: american staffordshire terrier, staffordshire terrier, american pit bull terrier, pit bull terrier
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+     MATCH:
+
+ NOT A MATCH:
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:          cliff, drop, drop-off  
+PetLabelDog: 1  ClassLabelDog: 0
+
+                  Sword_01.jpg: 
+Real:                      sword   Classifier:                          ladle  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                  Sheep_01.jpg: 
+Real:                      sheep   Classifier:                       ram, tup  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier: american staffordshire terrier, staffordshire terrier, american pit bull terrier, pit bull terrier  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog:  50.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog:  50.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+
+*** Here is the Results Summary for the CNN Model Architecture ALEXNET ***
+N Images            :   4
+N Dog Images        :   2
+N Not-Dog Images    :   2
+
+Percentages:
+pct_match           : 0.00
+pct_correct_dogs    : 50.00
+pct_correct_breed   : 0.00
+pct_correct_notdogs : 100.00
+
+This is an INCORRECT Dog/NOT Dog Assignment:
+Real:                        dog   Classifier:          cliff, drop, drop-off
+
+This is an INCORRECT Dog Breed Assignment:
+Real:                        dog   Classifier: american staffordshire terrier, staffordshire terrier, american pit bull terrier, pit bull terrier
+
+** Total Elapsed Runtime: 0:0:0
