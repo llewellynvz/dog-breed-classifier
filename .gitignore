@@ -1,0 +1,15 @@
+__pycache__/
+pet_images/
+uploaded_images/
+*.py
+*.pyc
+*.pth
+*.pkl
+*.h5
+*.log
+*.txt
+*.jpg
+*.png
+.venv/
+.env
+*.sh
